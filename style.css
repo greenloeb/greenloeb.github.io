@@ -1,0 +1,265 @@
+/* ── Palette: classic browser grey ── */
+:root {
+  --bg:           #c0c0c0;
+  --text:         #000000;
+  --text-muted:   #444444;
+  --link:         #0000ee;
+  --link-visited: #551a8b;
+  --link-active:  #ee0000;
+  --rule:         #808080;
+  --border:       #808080;
+  --nav-border:   #808080;
+  --font:         Palatino, 'Palatino Linotype', 'Book Antiqua', serif;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 14px;
+  line-height: 1.65;
+  overflow-y: scroll;
+}
+
+/* ── Layout ── */
+.page-wrap {
+  display: flex;
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 28px 20px;
+}
+
+/* Left navigation column */
+.nav-col {
+  width: 120px;
+  min-width: 120px;
+  padding-right: 18px;
+  border-right: 1px solid var(--nav-border);
+  margin-right: 22px;
+  padding-top: 2px;
+  flex-shrink: 0;
+}
+
+.nav-col .nav-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 7px;
+}
+
+.nav-col ul {
+  list-style: none;
+}
+
+.nav-col ul li {
+  margin-bottom: 5px;
+}
+
+.nav-col ul li a {
+  font-size: 13px;
+  color: var(--link);
+  text-decoration: underline;
+}
+
+.nav-col ul li a:visited {
+  color: var(--link-visited);
+}
+
+.nav-col ul li a:active {
+  color: var(--link-active);
+}
+
+.nav-col ul li a:hover {
+  color: #ee0000;
+}
+
+/* Main content column */
+.main-col {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ── Site header ── */
+.site-header {
+  margin-bottom: 14px;
+}
+
+.site-header h1 {
+  font-size: 21px;
+  font-weight: bold;
+  font-family: var(--font);
+  color: var(--text);
+  margin-bottom: 4px;
+}
+
+.site-header .tagline {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.75;
+  margin-bottom: 7px;
+}
+
+.site-header .epigraph {
+  font-size: 13px;
+  font-style: italic;
+  color: var(--text-muted);
+  line-height: 1.65;
+}
+
+/* ── Rules ── */
+hr {
+  border: none;
+  border-top: 2px solid var(--rule);
+  margin: 14px 0;
+}
+
+hr.thin {
+  border-top-width: 1px;
+  margin: 12px 0;
+}
+
+/* ── General typography ── */
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: var(--font);
+  color: var(--text);
+  margin: 20px 0 8px;
+}
+
+h2:first-child {
+  margin-top: 0;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+a {
+  color: var(--link);
+}
+
+a:visited {
+  color: var(--link-visited);
+}
+
+a:active {
+  color: var(--link-active);
+}
+
+a:hover {
+  color: #ee0000;
+}
+
+/* ── Entry lists: Writing and Projects ── */
+.entry-list {
+  list-style: none;
+  margin-top: 12px;
+}
+
+.entry-list li {
+  margin-bottom: 16px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid var(--border);
+}
+
+.entry-list li:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.entry-title {
+  font-weight: bold;
+}
+
+.entry-date {
+  font-size: 12px;
+  color: var(--text-muted);
+  margin-left: 8px;
+}
+
+.entry-annotation {
+  font-size: 13px;
+  color: var(--text-muted);
+  margin-top: 4px;
+  line-height: 1.55;
+}
+
+/* ── Links page ── */
+.links-section {
+  margin-bottom: 20px;
+}
+
+.links-section h2 {
+  margin-bottom: 8px;
+}
+
+.links-section ul {
+  list-style: none;
+}
+
+.links-section ul li {
+  margin-bottom: 10px;
+}
+
+.link-annotation {
+  font-size: 12px;
+  color: var(--text-muted);
+  display: block;
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
+/* ── Contact page ── */
+.contact-list {
+  list-style: none;
+  margin-top: 12px;
+}
+
+.contact-list li {
+  margin-bottom: 12px;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.contact-label {
+  font-size: 11px;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 2px;
+}
+
+/* ── Homepage intro ── */
+.intro {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+/* ── Footer ── */
+.site-footer {
+  margin-top: 28px;
+  padding-top: 10px;
+  border-top: 1px solid var(--rule);
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+/* ── Placeholder text ── */
+.placeholder {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+/* ── Photo placeholder comment (about.html) ──
+   When ready, insert inside .main-col before the prose:
+   <img src="photo.jpg" alt="Hunter V. McClure"
+        style="float:left; margin: 0 18px 12px 0;
+               border: 1px solid var(--border); max-width: 140px;">
+── */
