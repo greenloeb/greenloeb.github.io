@@ -236,6 +236,10 @@ a:hover {
   margin: 6px 0 4px;
 }
 
+.links-toc a {
+  white-space: nowrap;
+}
+
 /* ── Contact page ── */
 .contact-list {
   list-style: none;
