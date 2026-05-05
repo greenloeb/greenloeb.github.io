@@ -243,7 +243,7 @@ a:hover {
   white-space: nowrap;
 }
 
-.links-toc br {
+.links-toc .toc-break {
   flex-basis: 100%;
   height: 0;
 }
