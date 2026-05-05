@@ -214,6 +214,28 @@ a:hover {
   line-height: 1.5;
 }
 
+/* ── Links page subheaders ── */
+.links-section h3 {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: var(--font);
+  color: var(--text);
+  font-variant: small-caps;
+  letter-spacing: 0.04em;
+  margin: 16px 0 6px;
+}
+
+.links-section h3:first-of-type {
+  margin-top: 8px;
+}
+
+/* ── Links page table of contents ── */
+.links-toc {
+  font-size: 13px;
+  line-height: 1.9;
+  margin: 6px 0 4px;
+}
+
 /* ── Contact page ── */
 .contact-list {
   list-style: none;
