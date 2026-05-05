@@ -273,6 +273,37 @@ a:hover {
   margin-bottom: 2px;
 }
 
+/* ── CV page ── */
+.main-col > h3 {
+  font-size: 1.071rem;
+  font-weight: bold;
+  font-family: var(--font);
+  color: var(--text);
+  margin: 18px 0 6px;
+}
+
+.cv-list {
+  list-style: none;
+  margin-bottom: 14px;
+}
+
+.cv-list li {
+  margin-bottom: 8px;
+}
+
+.cv-list.cv-detail li {
+  font-size: 0.929rem;
+  margin-bottom: 4px;
+}
+
+.cv-meta {
+  display: block;
+  font-size: 0.929rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+  line-height: 1.5;
+}
+
 /* ── Homepage intro ── */
 .intro {
   font-size: 1rem;
