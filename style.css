@@ -232,7 +232,7 @@ a:hover {
 /* ── Links page table of contents ── */
 .links-toc {
   display: grid;
-  grid-template-columns: repeat(4, max-content);
+  grid-template-columns: repeat(auto-fit, max-content);
   justify-content: start;
   column-gap: 12px;
   row-gap: 4px;
