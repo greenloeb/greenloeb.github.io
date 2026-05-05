@@ -1,4 +1,4 @@
-/* ── Palette: classic browser grey ── */
+/* ── Palette: cool pewter ── */
 :root {
   --bg:           #b6bcc0;
   --text:         #000000;
@@ -14,11 +14,15 @@
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
+html {
+  font-size: 15px;
+}
+
 body {
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.65;
   overflow-y: scroll;
 }
@@ -43,7 +47,7 @@ body {
 }
 
 .nav-col .nav-label {
-  font-size: 11px;
+  font-size: 0.786rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.06em;
@@ -59,7 +63,7 @@ body {
 }
 
 .nav-col ul li a {
-  font-size: 13px;
+  font-size: 0.929rem;
   color: var(--link);
   text-decoration: underline;
 }
@@ -88,7 +92,7 @@ body {
 }
 
 .site-header h1 {
-  font-size: 21px;
+  font-size: 1.5rem;
   font-weight: bold;
   font-family: var(--font);
   color: var(--text);
@@ -96,14 +100,14 @@ body {
 }
 
 .site-header .tagline {
-  font-size: 13px;
+  font-size: 0.929rem;
   color: var(--text);
   line-height: 1.75;
   margin-bottom: 7px;
 }
 
 .site-header .epigraph {
-  font-size: 13px;
+  font-size: 0.929rem;
   font-style: italic;
   color: var(--text-muted);
   line-height: 1.65;
@@ -123,7 +127,7 @@ hr.thin {
 
 /* ── General typography ── */
 h2 {
-  font-size: 16px;
+  font-size: 1.143rem;
   font-weight: bold;
   font-family: var(--font);
   color: var(--text);
@@ -177,13 +181,13 @@ a:hover {
 }
 
 .entry-date {
-  font-size: 12px;
+  font-size: 0.857rem;
   color: var(--text-muted);
   margin-left: 8px;
 }
 
 .entry-annotation {
-  font-size: 13px;
+  font-size: 0.929rem;
   color: var(--text-muted);
   margin-top: 4px;
   line-height: 1.55;
@@ -207,7 +211,7 @@ a:hover {
 }
 
 .link-annotation {
-  font-size: 12px;
+  font-size: 0.857rem;
   color: var(--text-muted);
   display: block;
   margin-top: 2px;
@@ -216,7 +220,7 @@ a:hover {
 
 /* ── Links page subheaders ── */
 .links-section h3 {
-  font-size: 13px;
+  font-size: 0.929rem;
   font-weight: bold;
   font-family: var(--font);
   color: var(--text);
@@ -234,7 +238,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 12px;
-  font-size: 13px;
+  font-size: 0.929rem;
   line-height: 1.9;
   margin: 6px 0 4px;
 }
@@ -256,12 +260,12 @@ a:hover {
 
 .contact-list li {
   margin-bottom: 12px;
-  font-size: 13px;
+  font-size: 0.929rem;
   line-height: 1.5;
 }
 
 .contact-label {
-  font-size: 11px;
+  font-size: 0.786rem;
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -271,7 +275,7 @@ a:hover {
 
 /* ── Homepage intro ── */
 .intro {
-  font-size: 14px;
+  font-size: 1rem;
   line-height: 1.7;
 }
 
@@ -280,13 +284,13 @@ a:hover {
   margin-top: 28px;
   padding-top: 10px;
   border-top: 1px solid var(--rule);
-  font-size: 11px;
+  font-size: 0.786rem;
   color: var(--text-muted);
 }
 
 /* ── Placeholder text ── */
 .placeholder {
-  font-size: 13px;
+  font-size: 0.929rem;
   color: var(--text-muted);
   font-style: italic;
 }
