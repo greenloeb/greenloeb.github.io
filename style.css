@@ -295,9 +295,19 @@ a:hover {
   font-style: italic;
 }
 
-/* ── Photo placeholder comment (about.html) ──
-   When ready, insert inside .main-col before the prose:
-   <img src="photo.jpg" alt="Hunter V. McClure"
-        style="float:left; margin: 0 18px 12px 0;
-               border: 1px solid var(--border); max-width: 140px;">
-── */
+/* ── About page photo ── */
+.about-photo {
+  float: left;
+  margin: 0 18px 12px 0;
+  border: 1px solid var(--border);
+  max-width: 140px;
+}
+
+@media (max-width: 600px) {
+  .about-photo {
+    float: none;
+    display: block;
+    margin: 0 0 12px 0;
+    max-width: 100%;
+  }
+}
