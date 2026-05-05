@@ -1,12 +1,12 @@
 /* ── Palette: classic browser grey ── */
 :root {
-  --bg:           #c0c0c0;
+  --bg:           #b6bcc0;
   --text:         #000000;
-  --text-muted:   #444444;
+  --text-muted:   #3a4044;
   --link:         #0000ee;
   --link-visited: #551a8b;
   --link-active:  #ee0000;
-  --rule:         #808080;
+  --rule:         #7a8086;
   --border:       #808080;
   --nav-border:   #808080;
   --font:         Palatino, 'Palatino Linotype', 'Book Antiqua', serif;
