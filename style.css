@@ -92,7 +92,7 @@ body {
 }
 
 .site-header h1 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   font-weight: bold;
   font-family: var(--font);
   color: var(--text);
@@ -100,14 +100,14 @@ body {
 }
 
 .site-header .tagline {
-  font-size: 0.929rem;
+  font-size: 1rem;
   color: var(--text);
   line-height: 1.75;
   margin-bottom: 7px;
 }
 
 .site-header .epigraph {
-  font-size: 0.929rem;
+  font-size: 1rem;
   font-style: italic;
   color: var(--text-muted);
   line-height: 1.65;
@@ -127,7 +127,7 @@ hr.thin {
 
 /* ── General typography ── */
 h2 {
-  font-size: 1.143rem;
+  font-size: 1.286rem;
   font-weight: bold;
   font-family: var(--font);
   color: var(--text);
@@ -181,13 +181,13 @@ a:hover {
 }
 
 .entry-date {
-  font-size: 0.857rem;
+  font-size: 0.929rem;
   color: var(--text-muted);
   margin-left: 8px;
 }
 
 .entry-annotation {
-  font-size: 0.929rem;
+  font-size: 1rem;
   color: var(--text-muted);
   margin-top: 4px;
   line-height: 1.55;
@@ -211,7 +211,7 @@ a:hover {
 }
 
 .link-annotation {
-  font-size: 0.857rem;
+  font-size: 0.929rem;
   color: var(--text-muted);
   display: block;
   margin-top: 2px;
@@ -238,7 +238,7 @@ a:hover {
   display: flex;
   flex-wrap: wrap;
   gap: 4px 12px;
-  font-size: 0.929rem;
+  font-size: 1rem;
   line-height: 1.9;
   margin: 6px 0 4px;
 }
@@ -284,7 +284,7 @@ a:hover {
   margin-top: 28px;
   padding-top: 10px;
   border-top: 1px solid var(--rule);
-  font-size: 0.786rem;
+  font-size: 0.857rem;
   color: var(--text-muted);
 }
 
