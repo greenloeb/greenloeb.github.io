@@ -113,6 +113,18 @@ body {
   line-height: 1.65;
 }
 
+.site-header .epigraph-cite {
+  font-size: 0.857rem;
+  color: var(--text-muted);
+  text-align: right;
+  margin-top: 4px;
+  line-height: 1.5;
+}
+
+.site-header .epigraph-cite em {
+  font-style: italic;
+}
+
 /* ── Rules ── */
 hr {
   border: none;
